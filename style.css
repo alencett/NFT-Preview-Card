@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500&family=Overpass:wght@400;700&display=swap');
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.component {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 500px;
+    padding: 10px;
+    background-color: hsl(216, 50%, 16%);
+    color:hsl(0, 0%, 100%);
+    border-radius: 15px;
+    box-shadow: 2px 2px 100px 20px hsl(215, 32%, 27%);
+}
+
+.image {
+    width: 90%;
+    height: 50%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.capa {
+    background-color: rgba(8, 226, 208, 0.5);
+    position: relative;
+    top: -100%;
+    padding-top: 101px;
+    padding-right: 0px;
+    height: 58%;
+    border-radius: 10px;
+    text-align: center;
+    opacity: 0;
+    
+}
+
+.capa:hover {
+    opacity: 1;
+    visibility: visible;
+    transition: all 200ms ease-out;
+    cursor: pointer;
+}
+
+.viewicon {
+    position: relative;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+h3 {
+    padding-left: 20px;
+}
+
+h3:hover {
+    color: hsl(178, 100%, 50%);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+p {
+    padding-left: 20px;
+    color:hsl(215, 51%, 70%);
+    font-size: 14px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    font-size: 14px;
+    
+}
+
+.eth {
+    color: hsl(178, 100%, 50%);
+    padding-left: 5px;
+    padding-right: 80px;
+    
+}
+
+.days {
+    color: hsl(215, 51%, 70%);
+    padding-left: 4px;
+    padding-right: 0px;
+}
+
+hr {
+    width: 89%;
+    border-color: hsl(215, 51%, 70%);
+    border-width: 0.1px;
+}
+
+.author {
+    display: flex;
+    padding-left: 20px;
+    font-size: 12px;
+    color:hsl(215, 51%, 70%);
+    align-items: center;
+}
+
+a {
+    padding-left: 4px;
+    color: aliceblue;
+}
+
+a:hover {
+    color: hsl(178, 100%, 50%);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.avatar {
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: aliceblue;
+    position: absolute;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
